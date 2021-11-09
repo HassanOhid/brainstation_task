@@ -1,1 +1,17 @@
+\\........ key_notes
+ 
+ \\ query student names ==> SELECT Name
+ 
+\\ from STUDENTS table ==> FROM STUDENTS
 
+\\ score higher than 75 Marks ==> WHERE Marks > 70 (here i taken highest mark 70 )
+
+\\ order output by last three characters of name ==> ORDER BY RIGHT(Name, 3)
+
+\\ secondary sort by ascending ID ==> ORDER BY RIGHT(Name, 3), ID
+
+
+
+
+  	
+   query =    " SELECT Name FROM STUDENTS WHERE Marks > 70 ORDER BY RIGHT(Name, 3), ID;  " 
